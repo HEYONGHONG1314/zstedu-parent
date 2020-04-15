@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zstedu-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zstedu-course" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zstedu-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zstedu-eureka-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zstedu-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zstedu-mq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zstedu-shop" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zstedu-uaa" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zstedu-uaa/src/main/resources/application2.yml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/zstedu-uaa/src/main/resources/hyh-jwt.jks" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zstedu-uaa/target/classes/hyh-jwt.jks" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zstedu-user" charset="UTF-8" />
+  </component>
+</project>

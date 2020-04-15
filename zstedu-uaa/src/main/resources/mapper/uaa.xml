@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="uaa" >
+
+    <resultMap id="userMap" type="cn.zstedu.security.entity.User" >
+    <result column="account_id" property="username" jdbcType="VARCHAR" />
+    <result column="password" property="password" jdbcType="VARCHAR" />
+    </resultMap>
+
+    <resultMap id="roleMap" type="cn.zstedu.security.entity.Role" >
+    <result column="role_name" property="authority" jdbcType="VARCHAR" />
+    </resultMap>
+
+
+   <!--用户账号ID，密码-->
+   <select id ="selectUser" parameterType="String" resultMap="userMap">
+      select account_id,password from zstedu_account where account_id = #{accountId};
+  </select>
+
+    <!--用户所拥有的角色-->
+    <select id="selectRole" parameterType="String" resultMap="roleMap">
+      select b.role_name from zstedu_account_role a
+        left join zstedu_role b on a.role_id = b.role_id
+       where account_id = #{accountId};
+    </select>
+
+
+
+
+</mapper>
