@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ApplicationCourse {
     public static void main(String[] args) {
         SpringApplication.run(ApplicationCourse.class,args);
-        System.out.println("course服务开启");
+        System.out.println("course 服务开启");
     }
 
 
