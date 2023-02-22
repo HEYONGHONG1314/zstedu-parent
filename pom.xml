@@ -55,7 +55,7 @@
         <fastjson.version>1.2.57</fastjson.version>
         <!--<logback.version>4.6</logback.version>-->
         <swagger.version>1.7.0.RELEASE</swagger.version>
-        <commons-fileupload.version>1.3.3</commons-fileupload.version>
+        <commons-fileupload.version>1.5</commons-fileupload.version>
         <commons-codec.version>RELEASE</commons-codec.version>
         <spring-boot-starter-logging.version>2.1.4.RELEASE</spring-boot-starter-logging.version>
 
